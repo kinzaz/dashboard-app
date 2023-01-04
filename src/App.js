@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { addPositions } from './store/positions/position-action';
 import data from './mock/data.json';
+
 function App() {
 	const dispatch = useDispatch();
 

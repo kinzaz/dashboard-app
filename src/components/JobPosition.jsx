@@ -20,6 +20,7 @@ const JobPosition = ({
 	handleAddFilter,
 }) => {
 	const badges = [].concat(role, level, ...languages, ...tools);
+// ['Frontend', 'Senior', 'HTML', 'CSS', 'JavaScript']
 
 	return (
 		<Card isFeatured={featured}>
