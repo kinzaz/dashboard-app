@@ -2,8 +2,7 @@ import { Badge } from 'UI/Badge';
 import { Card } from 'UI/Card';
 import { Stack } from 'UI/Stack';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectAllFilter } from 'store/filters/filter-selector';
-import { clearFilter, removeFilter } from 'store/filters/filter-actions';
+import { selectAllFilter, clearFilter, removeFilter } from './filter-slice';
 
 const FilterPanel = () => {
 	const currentFilters = useSelector(selectAllFilter);
